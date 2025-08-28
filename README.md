@@ -34,8 +34,8 @@ My journey started with frontend development and now extends to handling live E-
 ![Magento2](https://img.shields.io/badge/Magento-EE672F?style=for-the-badge&logo=magento&logoColor=white)  
 
 **Designing Tools:**  
-![Canva](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
-![Figma](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![Canva](https://img.shields.io/badge/Canva-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
+![Figma](https://img.shields.io/badge/Figma-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
 
 **Other Tools & Platforms:**  
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
