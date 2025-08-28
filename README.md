@@ -35,7 +35,8 @@ My journey started with frontend development and now extends to handling live E-
 
 **Designing Tools:**  
 <img width="80" height="30" alt="image" src="https://github.com/user-attachments/assets/de7879bf-0e26-4272-8108-eb0b2da7357f" />
- <img width="148" height="148" alt="image" src="https://github.com/user-attachments/assets/31fc3fd3-6d9f-442a-b6bb-fb74361e274a" />
+<img width="1920" height="1054" alt="image" src="https://github.com/user-attachments/assets/7896bfa2-d0ca-44e6-b237-0abe36e19a2a" />
+
 
 **Other Tools & Platforms:**  
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
