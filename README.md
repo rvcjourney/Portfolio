@@ -12,8 +12,9 @@ My journey started with frontend development and now extends to handling live E-
 - 🛠️ Worked on **data management, image integration, and frontend development** using **HTML, CSS, JavaScript, and Bootstrap**  
 - 🤝 Collaborated with senior data analysts and developers to deliver a live production-ready website:  
   👉 [store.mainiauto.com](https://store.mainiauto.com/)  
-- 📦 Currently handling **purchase order workflows** and **admin panel operations**  
+- 📦Currently working on automation projects, including **Email Automation** and **Intelligent Chatbots**.
 - 🎨 Built and deployed a **portfolio website** for the company  
+ 👉 [mainiauto.com](https://reactjs-36wr.vercel.app/)  
 - 🚀 Expanding expertise in **React.js, Spring Boot, MySQL, and Full-Stack Development**  
 
 ---
@@ -32,6 +33,10 @@ My journey started with frontend development and now extends to handling live E-
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  
 ![Magento2](https://img.shields.io/badge/Magento-EE672F?style=for-the-badge&logo=magento&logoColor=white)  
 
+**Designing Tools:**  
+![Canva](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
+![Figma](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+
 **Other Tools & Platforms:**  
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
@@ -48,7 +53,7 @@ My journey started with frontend development and now extends to handling live E-
 
 - 🎨 **Portfolio Website for Maini Group**  
   - Built with HTML, CSS, Bootstrap, JavaScript  
-    Currently maintaining live site: [](https://reactjs-36wr.vercel.app/)  
+    Currently maintaining live site: [mainiauto.com](https://reactjs-36wr.vercel.app/)  
 
 - 🌐 **My Personal Portfolio Website**  
   - Built using **React + Vite**, deployed on GitHub Pages  
