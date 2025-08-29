@@ -15,7 +15,7 @@ My journey started with frontend development and now extends to handling live E-
 - 📦Currently working on automation projects, including **Email Automation** and **Intelligent Chatbots**.
 - 🎨 Built and deployed a **portfolio website** for the company  
   👉 [mainiauto.com](https://reactjs-36wr.vercel.app/)  
-      - [Github Page](https://github.com/rvcjourney/reactjs)
+        - [Github Page](https://github.com/rvcjourney/reactjs)
 - 🚀 Expanding expertise in **React.js, Spring Boot, MySQL, and Full-Stack Development**  
 
 ---
@@ -35,7 +35,7 @@ My journey started with frontend development and now extends to handling live E-
 ![Magento2](https://img.shields.io/badge/Magento-EE672F?style=for-the-badge&logo=magento&logoColor=white)  
 
 **Designing Tools:**  
-<img width="80" height="30" alt="image" src="https://github.com/user-attachments/assets/de7879bf-0e26-4272-8108-eb0b2da7357f" />
+<img width="80" height="30" alt="image" src="https://github.com/user-attachments/assets/de7879bf-0e26-4272-8108-eb0b2da7357f" /> <br/>
 <img width="100" height="60" alt="image" src="https://github.com/user-attachments/assets/7896bfa2-d0ca-44e6-b237-0abe36e19a2a" />
 
 
