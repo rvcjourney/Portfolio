@@ -14,8 +14,8 @@ My journey started with frontend development and now extends to handling live E-
   👉 [store.mainiauto.com](https://store.mainiauto.com/)  
 - 📦Currently working on automation projects, including **Email Automation** and **Intelligent Chatbots**.
 - 🎨 Built and deployed a **portfolio website** for the company  
- 👉 [mainiauto.com](https://reactjs-36wr.vercel.app/)  
-     [Github Page](https://github.com/rvcjourney/reactjs)
+  👉 [mainiauto.com](https://reactjs-36wr.vercel.app/)  
+      - [Github Page](https://github.com/rvcjourney/reactjs)
 - 🚀 Expanding expertise in **React.js, Spring Boot, MySQL, and Full-Stack Development**  
 
 ---
@@ -55,12 +55,12 @@ My journey started with frontend development and now extends to handling live E-
 
 - 🎨 **Portfolio Website for (Maini Group)**  
   - Built with HTML, CSS, Bootstrap, JavaScript,React-Vite,vercel
-  -[Github Page](https://github.com/rvcjourney/reactjs)
-    Currently maintaining live site: [mainiauto.com](https://reactjs-36wr.vercel.app/)  
+  - [Github Page](https://github.com/rvcjourney/reactjs)
+  - Currently maintaining live site: [mainiauto.com](https://reactjs-36wr.vercel.app/)  
 
 - 🌐 **AutoMailTelegramBot**
-  -Developed with n8n Tool.
-  -[AutoMailTelegramBot](https://github.com/rvcjourney/AutoMailTelegram)
+  - Developed with n8n Tool.
+  - [AutoMailTelegramBot](https://github.com/rvcjourney/AutoMailTelegram)
 
 - 🌐 **My Personal Portfolio Website**  
   - Built using **React + Vite**, deployed on GitHub Pages  
