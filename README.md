@@ -36,7 +36,7 @@ My journey started with frontend development and now extends to handling live E-
 
 **Designing Tools:**  
 <img width="80" height="30" alt="image" src="https://github.com/user-attachments/assets/de7879bf-0e26-4272-8108-eb0b2da7357f" /> <br/>
-<img width="80" height="50" alt="image" src="https://github.com/user-attachments/assets/8c3f37ce-596d-47da-a3ce-4d0ee8593031" />
+<img width="60" height="50" alt="image" src="https://github.com/user-attachments/assets/8c3f37ce-596d-47da-a3ce-4d0ee8593031" />
 
 
 **Other Tools & Platforms:**  
