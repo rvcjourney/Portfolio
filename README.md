@@ -12,11 +12,11 @@ My journey started with frontend development and now extends to handling live E-
 - 🛠️ Worked on **data management, image integration, and frontend development** using **HTML, CSS, JavaScript, and Bootstrap**  
 - 🤝 Collaborated with senior data analysts and developers to deliver a live production-ready website:  
   👉 [store.mainiauto.com](https://store.mainiauto.com/)  
-- 📦Currently working on automation projects, including **Email Automation** and **Intelligent Chatbots**.
+- 📦 Worked on **Email Automation integrated with Telegram Chatbots** and **Invoice Automation using Intelligent Chatbots.**
 - 🎨 Built and deployed a **portfolio website** for the company  
   👉 [mainiauto.com](https://reactjs-36wr.vercel.app/)  
         - [Github Page](https://github.com/rvcjourney/reactjs)
-- 🚀 Expanding expertise in **React.js, Spring Boot, MySQL, and Full-Stack Development**  
+- 🚀 Expanding expertise in **React.js, Spring Boot, MySQL, Full-Stack Development, Automation Developer**  
 
 ---
 
@@ -63,7 +63,8 @@ My journey started with frontend development and now extends to handling live E-
   - [AutoMailTelegramBot](https://github.com/rvcjourney/AutoMailTelegram)
 
 - 🌐 **My Personal Portfolio Website**  
-  - Built using **React + Vite**, deployed on GitHub Pages  
+  - Deployed on GitHub Pages  
+  - https://rvcjourney.github.io/Portfolio/
 
 ---
 
