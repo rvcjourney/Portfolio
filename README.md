@@ -14,7 +14,7 @@ My journey started with frontend development and now extends to handling live E-
   👉 [store.mainiauto.com](https://store.mainiauto.com/)  
 - 📦 Worked on **Email Automation integrated with Telegram Chatbots** and **Invoice Automation using Intelligent Chatbots.**
 - 🎨 Built and deployed a **portfolio website** for the company  
-  👉 [mainiauto.com](https://reactjs-36wr.vercel.app/)  
+  👉 [mainiauto.com](https://mainiauto.com/)  
         - [Github Page](https://github.com/rvcjourney/reactjs)
 - 🚀 Expanding expertise in **React.js, Spring Boot, MySQL, Full-Stack Development, Automation Developer**  
 
