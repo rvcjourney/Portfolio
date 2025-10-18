@@ -57,7 +57,7 @@ My journey started with frontend development and now extends to handling live E-
 - 🎨 **Portfolio Website for (Maini Group)**  
   - Built with HTML, CSS, Bootstrap, JavaScript,React-Vite,vercel
   - [Github Page](https://github.com/rvcjourney/reactjs)
-  - Currently maintaining live site: [mainiauto.com](https://reactjs-36wr.vercel.app/)  
+  - Currently maintaining live site: [mainiauto.com](https://mainiauto.com/)  
 
 - 🌐 **AutoMailTelegramBot**
   - Developed with n8n Tool.
