@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Rameshwar Vishwakarma | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
   <style>
     :root {
       --primary: #ee672f;
@@ -17,7 +17,6 @@
 
     body {
       background: var(--bg);
-      /* background: linear-gradient(rgb(83, 83, 252),rgb(240, 94, 240),90); */
       color: var(--text);
       font-family: 'Roboto', Arial, sans-serif;
       margin: 0;
@@ -33,12 +32,18 @@
 
     header h1 {
       color: var(--primary);
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header h3 {
+      margin-top: 0.5rem;
+      font-weight: 400;
     }
 
     header p {
       max-width: 600px;
-      margin: .5rem auto 1rem;
+      margin: 0.5rem auto 1rem;
+      line-height: 1.6;
     }
 
     section {
@@ -54,16 +59,19 @@
       color: var(--accent);
     }
 
-    ul,
-    li {
-      margin: 0;
-      padding: 0;
-      list-style: none;
+    h4 {
+      color: var(--primary);
+      margin-top: 1.5rem;
     }
 
-    .tech-stack img,
-    .contact-icons img {
-      vertical-align: middle;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      line-height: 1.6;
     }
 
     .badges {
@@ -74,23 +82,25 @@
     }
 
     .badge {
-      padding: .3em 1em;
+      padding: 0.3em 1em;
       background: var(--primary);
       color: #fff;
       border-radius: 18px;
-      font-size: 1em;
-    }
-
-    .project-list {
-      margin: 1.2em 0;
+      font-size: 0.95em;
     }
 
     .project-list li {
-      margin-bottom: 1em;
+      margin-bottom: 1.5em;
     }
 
-    .contact-icons a {
-      margin-right: 10px;
+    a {
+      color: #2483f0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #691ad0;
+      text-decoration: underline;
     }
 
     .github-stats img {
@@ -100,20 +110,9 @@
       border-radius: 8px;
     }
 
-    a {
-      color: #2483f0;
-      /* Replace this with your desired link color */
-      text-decoration: none;
-      /* Optional: removes underline */
+    .contact-icons a {
+      margin-right: 10px;
     }
-
-    a:hover {
-      color: #691ad0;
-      /* Optional: color when mouse hovers over the link */
-      text-decoration: underline;
-      /* Optional: underline on hover */
-    }
-
 
     @media (max-width: 600px) {
       section {
@@ -130,94 +129,97 @@
 <body>
   <header>
     <h1>👋 Hi, I'm Rameshwar Vishwakarma</h1>
-    <h3>Aspiring Full-Stack Developer | Magento2 Enthusiast | Web Developer | Automation Developer</h3>
+    <h3>Aspiring Full-Stack Developer | Magento 2 Enthusiast | Web & Automation Developer</h3>
     <p>
-     I am passionate about building impactful web solutions and automation projects, with a strong drive to continuously explore and learn emerging technologies.
+      I am passionate about building impactful web solutions and automation projects, with a strong drive to continuously explore and learn emerging technologies.
     </p>
   </header>
 
   <section>
-  <h2>💻 About Me</h2>
-  <ul>
-    <li>🌟 Practical experience in <b>Magento 2</b> development and managing a dynamic <b>e-commerce platform at Maini Group</b></li>
-    <li>🛠️ Skilled in data handling, image integration, and frontend development using <b>HTML, CSS, JavaScript, and Bootstrap</b></li>
-    <li>🤝 Collaborated with senior developers and data analysts to enhance and maintain a live production website: 
-      <a href="https://store.mainiauto.com/" target="_blank">store.mainiauto.com</a>
-    </li>
-    <li>📦 Built and deployed <b>Email Automation integrated with Telegram Chatbots</b> and developed <b>Invoice Automation solutions using Intelligent Bots</b></li>
-    <li>🎨 Designed, developed, and deployed the official company portfolio website: 
-      <a href="https://mainiauto.com/" target="_blank">mainiauto.com</a>
-    </li>
-    <li>🚀 Currently expanding my skill set into <b>React.js, Spring Boot, MySQL, Full-Stack Development, and Workflow Automation</b></li>
-  </ul>
-</section>
-
+    <h2>💻 About Me</h2>
+    <ul>
+      <li>🌟 Practical experience in <b>Magento 2</b> development and managing a dynamic <b>e-commerce platform at Maini Group</b>.</li>
+      <li>🛠️ Skilled in data handling, image integration, and frontend development using <b>HTML, CSS, JavaScript, and Bootstrap</b>.</li>
+      <li>🤝 Collaborated with senior developers and data analysts to enhance and maintain the live production website:
+        <a href="https://store.mainiauto.com/" target="_blank">store.mainiauto.com</a>
+      </li>
+      <li>📦 Built and deployed <b>Email Automation integrated with Telegram Chatbots</b>, and developed <b>Invoice Automation solutions using Intelligent Bots</b>.</li>
+      <li>🎨 Designed, developed, and deployed the official company portfolio website:
+        <a href="https://mainiauto.com/" target="_blank">mainiauto.com</a>
+      </li>
+      <li>🚀 Currently expanding my skill set into <b>React.js, Spring Boot, MySQL, Full-Stack Development, and Workflow Automation</b>.</li>
+    </ul>
+  </section>
 
   <section>
-    <h4><strong> 1. Full Stack</strong></h4>
-    <div>Front End</div>
-    <br />
-    <span class="badge">HTML5</span>
-    <span class="badge">CSS3</span>
-    <span class="badge">JavaScript</span>
-    <span class="badge">Bootstrap</span>
-    <span class="badge">React-JS</span>
-    <br />
-    <br />
-    <div>Back End</div>
-    <br />
-    <span class="badge">Java</span>
-    <span class="badge">Spring Boot</span>
-    <span class="badge">Magento2</span>
-    <br />
-    <br />
-    <div>Database</div>
-    <br />
-    <span class="badge">MySQL</span>
-    <span class="badge">MongoDB</span>
-    <br />
-    <br />
-    <div>Version Control & Deployment</div>
-    <br />
-    <span class="badge">Git</span>
-    <span class="badge">GitHub</span>
-    <span class="badge">Vercel</span>
-    <span class="badge">Supabase</span>
-    <span class="badge">Render</span>
+    <h2>🧠 Tech Stack</h2>
+    <h4>1. Full-Stack Development</h4>
 
-    <h4><strong> 2. Design & Other Tools</strong></h4>
-    <img src="https://github.com/user-attachments/assets/de7879bf-0e26-4272-8108-eb0b2da7357f" width="80" height="30"
-      alt="Design Tool" />
-    <img src="https://github.com/user-attachments/assets/8c3f37ce-596d-47da-a3ce-4d0ee8593031" width="40" height="40"
-      alt="image" />
-    <h4><strong> 3. Automation</strong></h4>
-    <span class="badge">Chatbot</span>
-    <span class="badge">Business Bot</span>
-    <span class="badge">E-Mail Automation</span>
-    <span class="badge">Invoice Automation</span>
-    <span class="badge">n8n Automation Tool</span>
+    <div><b>Frontend</b></div>
+    <div class="badges">
+      <span class="badge">HTML5</span>
+      <span class="badge">CSS3</span>
+      <span class="badge">JavaScript</span>
+      <span class="badge">Bootstrap</span>
+      <span class="badge">React.js</span>
+    </div>
+
+    <div><b>Backend</b></div>
+    <div class="badges">
+      <span class="badge">Java</span>
+      <span class="badge">Spring Boot</span>
+      <span class="badge">Magento 2</span>
+    </div>
+
+    <div><b>Database</b></div>
+    <div class="badges">
+      <span class="badge">MySQL</span>
+      <span class="badge">MongoDB</span>
+    </div>
+
+    <div><b>Version Control & Deployment</b></div>
+    <div class="badges">
+      <span class="badge">Git</span>
+      <span class="badge">GitHub</span>
+      <span class="badge">Vercel</span>
+      <span class="badge">Supabase</span>
+      <span class="badge">Render</span>
+    </div>
+
+    <h4>2. Design & Tools</h4>
+    <div class="badges">
+      <img src="https://github.com/user-attachments/assets/de7879bf-0e26-4272-8108-eb0b2da7357f" width="80" height="30" alt="Design Tool" />
+      <img src="https://github.com/user-attachments/assets/8c3f37ce-596d-47da-a3ce-4d0ee8593031" width="40" height="40" alt="Figma/Other Tool" />
+    </div>
+
+    <h4>3. Automation</h4>
+    <div class="badges">
+      <span class="badge">Chatbot</span>
+      <span class="badge">Business Bot</span>
+      <span class="badge">Email Automation</span>
+      <span class="badge">Invoice Automation</span>
+      <span class="badge">n8n Automation Tool</span>
+    </div>
   </section>
 
   <section>
     <h2>📌 Featured Projects</h2>
     <ul class="project-list">
       <li>
-        <b>🛒 E-Commerce Platform (Maini Group):</b> Magento2, frontend, data & image integration.<br><br>
-        Website : <a href="https://store.mainiauto.com/" target="_blank"> store.mainiauto.com</a>
+        <b>🛒 E-Commerce Platform (Maini Group):</b> Magento 2, frontend, data & image integration.<br />
+        Website: <a href="https://store.mainiauto.com/" target="_blank">store.mainiauto.com</a>
       </li>
       <li>
-        <b>🎨 Portfolio Website for Maini Group:</b> HTML, CSS, Bootstrap, Javascript-ReactJS.<br><br>
-        Website : <a href="https://mainiauto.com/" target="_blank">mainiauto.com</a>
+        <b>🎨 Portfolio Website (Maini Group):</b> HTML, CSS, Bootstrap, JavaScript, React.js.<br />
+        Website: <a href="https://mainiauto.com/" target="_blank">mainiauto.com</a>
       </li>
       <li>
-        <b>🛠️ Automation Project Page:</b><br><br>Page : 
-        <a href="https://github.com/rvcjourney/auto-mail-telegram" target="_blank"
-          rel="noopener noreferrer">Auto-Mail-Telegram</a>
+        <b>🛠️ Automation Project:</b><br />
+        Repository: <a href="https://github.com/rvcjourney/auto-mail-telegram" target="_blank">Auto-Mail-Telegram</a>
       </li>
       <li>
-        <b>🚀 My GitHub Profile:</b><br><br>Page : 
-        <a href="https://github.com/rvcjourney/" target="_blank"
-          rel="noopener noreferrer">https://github.com/rvcjourney/</a>
+        <b>🚀 My GitHub Profile:</b><br />
+        <a href="https://github.com/rvcjourney/" target="_blank">github.com/rvcjourney</a>
       </li>
     </ul>
   </section>
@@ -225,32 +227,26 @@
   <section>
     <h2>📊 GitHub Stats</h2>
     <div class="github-stats">
-      <img src="https://github-readme-stats.vercel.app/api?username=rvcjourney&show_icons=true&theme=radical"
-        alt="GitHub Stats" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rvcjourney&layout=compact&theme=radical"
-        alt="Top Langs" />
+      <img src="https://github-readme-stats.vercel.app/api?username=rvcjourney&show_icons=true&theme=radical" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rvcjourney&layout=compact&theme=radical" alt="Top Languages" />
     </div>
   </section>
 
   <section>
     <h2>📫 Connect With Me</h2>
     <div class="contact-icons">
-      <a href="https://www.linkedin.com/in/your-linkedin" target="_blank"><img
-          src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-          alt="LinkedIn" /></a>
-      <a href="mailto:ramvish958@gmail.com"><img
-          src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
-          alt="Gmail" /></a>
+      <a href="https://www.linkedin.com/in/rameshwar-vishwakarma/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
+      <a href="mailto:ramvish958@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+      </a>
     </div>
   </section>
 
-  <footer style="text-align:center;color:var(--accent);padding:1rem 0 2rem;">
-    ✨ “Adapt. Explore. Learn. Code. Build. Repeat.” ✨
+  <footer style="text-align:center; color: var(--accent); padding: 1rem 0 2rem;">
+    ✨ “Adapt. Learn. Build. Evolve. Repeat.” ✨
   </footer>
 </body>
 
-
 </html>
-
-
-
