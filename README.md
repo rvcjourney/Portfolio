@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Rameshwar Vishwakarma
 
-🚀 **React Native Mobile App Developer | Full-Stack Web Developer | Automation & AI Developer**
+🚀 **Automation & AI Developer | React Native Mobile App Developer | Full-Stack Web Developer **
 
 I build **mobile applications, scalable web platforms, and AI-powered automation systems**. I have hands-on experience working on live production systems and deploying real-world enterprise solutions.
 
@@ -79,7 +79,6 @@ I build **mobile applications, scalable web platforms, and AI-powered automation
 
 * Built with HTML, CSS, Bootstrap, JavaScript, React (Vite)
 * Live Website: [https://mainiauto.com](https://mainiauto.com)
-* GitHub: [https://github.com/rvcjourney/reactjs](https://github.com/rvcjourney/reactjs)
 
 ### 🤖 Auto-Mail Telegram Automation
 
@@ -104,7 +103,7 @@ I build **mobile applications, scalable web platforms, and AI-powered automation
 
 ## 📫 Connect With Me
 
-* 💼 LinkedIn: [https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin)
+* 💼 LinkedIn: [https://www.linkedin.com/in/rameshwar-vishwakarma/](https://www.linkedin.com/in/rameshwar-vishwakarma/)
 * 📧 Email: [ramvish958@gmail.com](mailto:ramvish958@gmail.com)
 * 🌐 GitHub: [https://github.com/rvcjourney](https://github.com/rvcjourney)
 
