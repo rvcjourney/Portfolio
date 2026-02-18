@@ -1,86 +1,113 @@
-# 👋 Hi, I'm Rameshwar Vishwakarma  
+# 👋 Hi, I'm Rameshwar Vishwakarma
 
-🚀 **Aspiring Full-Stack Developer | Magento2 Enthusiast | Web Developer | Automation Developer**  
+🚀 **React Native Mobile App Developer | Full-Stack Web Developer | Automation & AI Developer**
 
-I’m passionate about building impactful web solutions and constantly learning new technologies.  
-My journey started with frontend development and now extends to handling live E-Commerce websites.  
- 
----
-
-## 💻 About Me  
-- 🌟 Hands-on experience with **Magento2** for developing and managing an **E-Commerce platform** at **Maini Group**  
-- 🛠️ Worked on **data management, image integration, and frontend development** using **HTML, CSS, JavaScript, and Bootstrap**  
-- 🤝 Collaborated with senior data analysts and developers to deliver a live production-ready website:  
-  👉 [store.mainiauto.com](https://store.mainiauto.com/)  
-- 📦 Worked on **Email Automation integrated with Telegram Chatbots** and **Invoice Automation using Intelligent Chatbots.**
-- 🎨 Built and deployed a **portfolio website** for the company  
-  👉 [mainiauto.com](https://mainiauto.com/)  
-        - [Github Page](https://github.com/rvcjourney/reactjs)
-- 🚀 Expanding expertise in **React.js, Spring Boot, MySQL, Full-Stack Development, Automation Developer**  
+I build **mobile applications, scalable web platforms, and AI-powered automation systems**. I have hands-on experience working on live production systems and deploying real-world enterprise solutions.
 
 ---
 
-## 🛠️ Tech Stack  
+## 👨‍💻 Professional Summary
 
-**Frontend:**  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)  
-![React-JS](https://img.shields.io/badge/React-JS-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
-
-**Backend & Tools:**  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
-![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)  
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  
-![Magento2](https://img.shields.io/badge/Magento-EE672F?style=for-the-badge&logo=magento&logoColor=white)  
-
-**Designing Tools:**  
-<img width="80" height="30" alt="image" src="https://github.com/user-attachments/assets/de7879bf-0e26-4272-8108-eb0b2da7357f" /> <br/>
-<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/8c3f37ce-596d-47da-a3ce-4d0ee8593031" />
-
-
-**Other Tools & Platforms:**  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)  
+* 💼 **Automation & AI Executive Developer at MOTM Technologies (Nov 2025 – Present)**
+* 💼 **Software Developer at Maini Group of Companies (Mar 2025 – Oct 2025)**
+* 📱 Experience in **React Native CLI mobile app development and Play Store deployment**
+* 🌐 Built and maintained **live E-Commerce and corporate websites**
+* 🤖 Worked on **AI/LLM integrations, Voice-to-Text, Text-to-Speech, and automation workflows**
 
 ---
 
-## 📌 Featured Projects  
+## 💻 About Me
 
-- 🛒 **E-Commerce Platform (Maini Group)**  
-  - Developed with **Magento2**  
-  - Worked on frontend, data, and image integration  
-  - Currently maintaining live site: [store.mainiauto.com](https://store.mainiauto.com/)  
-
-- 🎨 **Portfolio Website for (Maini Group)**  
-  - Built with HTML, CSS, Bootstrap, JavaScript,React-Vite,vercel
-  - [Github Page](https://github.com/rvcjourney/reactjs)
-  - Currently maintaining live site: [mainiauto.com](https://mainiauto.com/)  
-
-- 🌐 **AutoMailTelegramBot**
-  - Developed with n8n Tool.
-  - [AutoMailTelegramBot](https://github.com/rvcjourney/AutoMailTelegram)
-
-- 🌐 **My Personal Portfolio Website**  
-  - Deployed on GitHub Pages  
-  - https://rvcjourney.github.io/Portfolio/
+* 🌟 Developed and managed a **Magento 2 enterprise E-Commerce platform** for Maini Group
+* 🛠️ Worked on **frontend UI, product data handling, and image integration** using HTML, CSS, JavaScript, and Bootstrap
+* 🤝 Collaborated with senior developers and analysts in a **live production environment**
+* 📦 Built **Email Automation + Telegram Chatbot + Invoice Automation workflows**
+* 🎨 Designed and deployed the **official corporate portfolio website** for Maini Group
+* 🚀 Currently working on **React Native, Node.js backend, PostgreSQL, Docker, and AI-driven applications**
 
 ---
 
-## 📊 GitHub Stats  
+## 🛠️ Tech Stack
 
-![Rameshwar's GitHub stats](https://github-readme-stats.vercel.app/api?username=rvcjourney&show_icons=true&theme=radical)  
+### 📱 Mobile Development
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rvcjourney&layout=compact&theme=radical)  
+* React Native CLI
+* Android App Deployment (Google Play Store)
+
+### 🌐 Frontend
+
+* HTML5, CSS3, JavaScript, Bootstrap, React.js
+
+### ⚙️ Backend
+
+* Node.js, Java, Spring Boot
+* REST APIs & API Integration
+
+### 🗄️ Database
+
+* PostgreSQL, MySQL, MongoDB
+
+### 🤖 AI & Automation
+
+* LLM Integration
+* Voice-to-Text (Speech Recognition)
+* Text-to-Speech (TTS)
+* Chatbots & Business Automation Bots
+* n8n Workflow Automation
+
+### 🚀 Deployment & DevOps
+
+* Docker
+* AWS, Hostinger, GoDaddy
+* Git & GitHub, Vercel, Supabase, Render
+
+### 🎨 Design Tools
+
+* Figma and UI/UX tools
 
 ---
 
-## 📫 Connect With Me  
+## 📌 Featured Real-World Projects
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin)  
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramvish958@gmail.com)  
+### 🛒 E-Commerce Platform – Maini Group
+
+* Magento 2 enterprise platform
+* Frontend UI, product data & image integration
+* Live Production Website: [https://store.mainiauto.com](https://store.mainiauto.com)
+
+### 🎨 Corporate Portfolio Website – Maini Group
+
+* Built with HTML, CSS, Bootstrap, JavaScript, React (Vite)
+* Live Website: [https://mainiauto.com](https://mainiauto.com)
+* GitHub: [https://github.com/rvcjourney/reactjs](https://github.com/rvcjourney/reactjs)
+
+### 🤖 Auto-Mail Telegram Automation
+
+* Email automation with Telegram bot alerts
+* Intelligent invoice automation workflows
+* GitHub: [https://github.com/rvcjourney/AutoMailTelegram](https://github.com/rvcjourney/AutoMailTelegram)
+
+### 🌐 Personal Developer Portfolio
+
+* Deployed on GitHub Pages
+* [https://rvcjourney.github.io/Portfolio/](https://rvcjourney.github.io/Portfolio/)
 
 ---
-✨ *“Code. Learn. Build. Repeat.”*  
+
+## 📊 GitHub Stats
+
+![Rameshwar's GitHub stats](https://github-readme-stats.vercel.app/api?username=rvcjourney\&show_icons=true\&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rvcjourney\&layout=compact\&theme=radical)
+
+---
+
+## 📫 Connect With Me
+
+* 💼 LinkedIn: [https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin)
+* 📧 Email: [ramvish958@gmail.com](mailto:ramvish958@gmail.com)
+* 🌐 GitHub: [https://github.com/rvcjourney](https://github.com/rvcjourney)
+
+---
+
+✨ *Code. Automate. Build. Deploy. Repeat.*
