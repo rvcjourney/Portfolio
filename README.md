@@ -93,14 +93,6 @@ I build **mobile applications, scalable web platforms, and AI-powered automation
 
 ---
 
-## 📊 GitHub Stats
-
-![Rameshwar's GitHub stats](https://github-readme-stats.vercel.app/api?username=rvcjourney\&show_icons=true\&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rvcjourney\&layout=compact\&theme=radical)
-
----
-
 ## 📫 Connect With Me
 
 * 💼 LinkedIn: [https://www.linkedin.com/in/rameshwar-vishwakarma/](https://www.linkedin.com/in/rameshwar-vishwakarma/)
