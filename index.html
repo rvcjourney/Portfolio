@@ -1,241 +1,1826 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rameshwar Vishwakarma | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --primary: #ee672f;
-      --bg: #1a1a1d;
-      --accent: #6db33f;
-      --text: #fff;
-      --card: #272730;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Roboto', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+    <title>Rameshwar Vishwakarma | AI Engineer & Full-Stack Developer</title>
 
-    header {
-      text-align: center;
-      padding: 2rem 1rem 1rem;
-      background: var(--card);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-    }
+    <meta name="description"
+          content="Rameshwar Vishwakarma - AI Engineer, Full-Stack Developer, DevOps & Automation Engineer specializing in AI, LLMs, React Native, Node.js, automation and cloud deployment.">
 
-    header h1 {
-      color: var(--primary);
-      margin-bottom: 0.5rem;
-    }
+    <meta name="author" content="Rameshwar Vishwakarma">
 
-    header h3 {
-      margin-top: 0.5rem;
-      font-weight: 400;
-    }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    header p {
-      max-width: 700px;
-      margin: 0.5rem auto 1rem;
-      line-height: 1.6;
-    }
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+          rel="stylesheet">
 
-    section {
-      margin: 2rem auto;
-      padding: 1.5rem 1rem;
-      max-width: 950px;
-      background: var(--card);
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
-    }
+    <style>
 
-    h2 {
-      color: var(--accent);
-    }
+        /* =========================
+           RESET
+        ========================== */
 
-    h4 {
-      color: var(--primary);
-      margin-top: 1.5rem;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
+        html {
+            scroll-behavior: smooth;
+        }
 
-    li {
-      margin-bottom: 1rem;
-      line-height: 1.6;
-    }
+        body {
+            font-family: "Inter", sans-serif;
+            background: #080808;
+            color: #f5f5f5;
+            line-height: 1.7;
+        }
 
-    .badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 1rem;
-    }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
 
-    .badge {
-      padding: 0.3em 1em;
-      background: var(--primary);
-      color: #fff;
-      border-radius: 18px;
-      font-size: 0.95em;
-    }
+        img {
+            max-width: 100%;
+            display: block;
+        }
 
-    a {
-      color: #2483f0;
-      text-decoration: none;
-    }
+        /* =========================
+           VARIABLES
+        ========================== */
 
-    a:hover {
-      color: #691ad0;
-      text-decoration: underline;
-    }
+        :root {
+            --bg: #080808;
+            --card: #101010;
+            --card-hover: #151515;
+            --border: #262626;
+            --text: #f5f5f5;
+            --muted: #a1a1aa;
+            --accent: #00e5ff;
+            --accent-2: #7c3aed;
+            --green: #22c55e;
+            --max-width: 1200px;
+        }
 
-    .github-stats img {
-      width: 320px;
-      max-width: 100%;
-      margin: 8px;
-      border-radius: 8px;
-    }
+        /* =========================
+           COMMON
+        ========================== */
 
-    @media (max-width: 600px) {
-      section {
-        padding: 1rem;
-      }
-      header {
-        padding: 1.5rem 1rem;
-      }
-    }
-  </style>
+        .container {
+            width: min(92%, var(--max-width));
+            margin: auto;
+        }
+
+        section {
+            padding: 100px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-title {
+            font-size: 38px;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .section-subtitle {
+            color: var(--muted);
+            max-width: 700px;
+            margin-bottom: 50px;
+        }
+
+        .gradient-text {
+            background: linear-gradient(
+                90deg,
+                var(--accent),
+                #ffffff,
+                #a78bfa
+            );
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .mono {
+            font-family: "JetBrains Mono", monospace;
+        }
+
+        /* =========================
+           NAVBAR
+        ========================== */
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+
+            background: rgba(8, 8, 8, 0.85);
+            backdrop-filter: blur(15px);
+
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .nav-container {
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #bdbdbd;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        /* =========================
+           HERO
+        ========================== */
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+
+            padding-top: 120px;
+
+            background:
+                radial-gradient(
+                    circle at 15% 20%,
+                    rgba(0, 229, 255, 0.12),
+                    transparent 30%
+                ),
+                radial-gradient(
+                    circle at 85% 80%,
+                    rgba(124, 58, 237, 0.12),
+                    transparent 30%
+                );
+        }
+
+        .hero-content {
+            max-width: 900px;
+        }
+
+        .hero-label {
+            color: var(--accent);
+            font-family: "JetBrains Mono", monospace;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .hero h1 {
+            font-size: clamp(45px, 7vw, 82px);
+            line-height: 1.05;
+            font-weight: 800;
+            margin-bottom: 25px;
+        }
+
+        .hero h2 {
+            font-size: clamp(20px, 3vw, 32px);
+            color: #d4d4d8;
+            margin-bottom: 25px;
+        }
+
+        .hero-description {
+            max-width: 800px;
+            color: var(--muted);
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 13px 24px;
+            border-radius: 8px;
+
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,229,255,0.2);
+        }
+
+        .btn-outline {
+            border: 1px solid var(--border);
+            color: white;
+        }
+
+        .btn-outline:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* =========================
+           ABOUT
+        ========================== */
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
+        }
+
+        .about-text p {
+            color: var(--muted);
+            margin-bottom: 18px;
+        }
+
+        .about-list {
+            list-style: none;
+            display: grid;
+            gap: 15px;
+        }
+
+        .about-list li {
+            padding: 15px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: #d4d4d8;
+        }
+
+        /* =========================
+           EXPERIENCE
+        ========================== */
+
+        .timeline {
+            position: relative;
+            display: grid;
+            gap: 35px;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding: 30px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            transition: 0.3s;
+        }
+
+        .timeline-item:hover {
+            background: var(--card-hover);
+            border-color: #3b3b3b;
+            transform: translateY(-3px);
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .timeline-header h3 {
+            font-size: 24px;
+        }
+
+        .timeline-role {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .timeline-date {
+            color: var(--muted);
+            font-family: "JetBrains Mono", monospace;
+            font-size: 13px;
+        }
+
+        .timeline-location {
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .timeline-item ul {
+            padding-left: 20px;
+            color: var(--muted);
+        }
+
+        .timeline-item li {
+            margin-bottom: 9px;
+        }
+
+        /* =========================
+           TECH STACK
+        ========================== */
+
+        .stack-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .stack-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 25px;
+            border-radius: 14px;
+            transition: 0.3s;
+        }
+
+        .stack-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+
+        .stack-card h3 {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            padding: 6px 10px;
+            border-radius: 6px;
+            background: #181818;
+            border: 1px solid #292929;
+            color: #cfcfcf;
+            font-size: 13px;
+        }
+
+        /* =========================
+           PROJECTS
+        ========================== */
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .project-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 15px;
+            padding: 30px;
+
+            display: flex;
+            flex-direction: column;
+
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+
+        .project-icon {
+            font-size: 35px;
+            margin-bottom: 18px;
+        }
+
+        .project-card h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            color: var(--muted);
+            margin-bottom: 20px;
+        }
+
+        .project-card ul {
+            padding-left: 20px;
+            color: #a1a1aa;
+            margin-bottom: 20px;
+        }
+
+        .project-link {
+            margin-top: auto;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* =========================
+           WORKFLOW
+        ========================== */
+
+        .workflow {
+            background: #0b0b0b;
+        }
+
+        .workflow-box {
+            padding: 35px;
+            border: 1px solid var(--border);
+            border-radius: 15px;
+            background: #0e0e0e;
+
+            overflow-x: auto;
+        }
+
+        .workflow-box pre {
+            color: #d4d4d8;
+            font-family: "JetBrains Mono", monospace;
+            line-height: 2;
+            font-size: 14px;
+        }
+
+        /* =========================
+           STRENGTHS
+        ========================== */
+
+        .strength-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .strength {
+            padding: 18px;
+            text-align: center;
+
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+
+            color: #d4d4d8;
+        }
+
+        /* =========================
+           EDUCATION
+        ========================== */
+
+        .education-card {
+            max-width: 800px;
+            padding: 35px;
+
+            border: 1px solid var(--border);
+            background: var(--card);
+            border-radius: 15px;
+        }
+
+        .education-card h3 {
+            font-size: 25px;
+            margin-bottom: 8px;
+        }
+
+        .education-card p {
+            color: var(--muted);
+        }
+
+        /* =========================
+           CONTACT
+        ========================== */
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            color: var(--muted);
+            max-width: 650px;
+            margin: auto auto 35px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        /* =========================
+           FOOTER
+        ========================== */
+
+        footer {
+            padding: 35px 0;
+            text-align: center;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        footer span {
+            color: var(--accent);
+        }
+
+        /* =========================
+           RESPONSIVE
+        ========================== */
+
+        @media (max-width: 900px) {
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stack-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .strength-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        @media (max-width: 700px) {
+
+            section {
+                padding: 75px 0;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 72px;
+                left: 0;
+                width: 100%;
+
+                display: none;
+                flex-direction: column;
+
+                background: #090909;
+                border-bottom: 1px solid var(--border);
+
+                padding: 25px;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .menu-btn {
+                display: block;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stack-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .strength-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 48px;
+            }
+
+            .contact h2 {
+                font-size: 34px;
+            }
+
+        }
+
+    </style>
 </head>
 
 <body>
 
-<header>
-  <h1>👋 Hi, I'm Rameshwar Vishwakarma</h1>
-  <h3>Automation & AI Executive Developer | React Native Mobile App Developer | Full-Stack Web Developer </h3>
-  <p>
-    I build mobile applications, scalable web platforms, and AI-powered automation systems.  
-    I have real industry experience working on live production systems and enterprise projects.
-  </p>
-</header>
+<!-- =========================
+     NAVBAR
+========================== -->
 
-<section>
-  <h2>💻 About Me</h2>
-  <ul>
-    <li>💼 <b>Automation & AI Executive Developer at MOTM Technologies (Nov 2025 – Present)</b></li>
-    <li>💼 <b>Software Developer at Maini Group of Companies (Mar 2025 – Oct 2025)</b></li>
-    <li>📱 Experience in <b>React Native CLI mobile app development</b> and hosting apps on Google Play Store.</li>
-    <li>🛒 Developed and managed <b>Magento 2 E-Commerce platform</b> at Maini Group.</li>
-    <li>🌐 Built official corporate website: 1) <a href="https://mainiauto.com/" target="_blank">mainiauto.com</a>
-                                              2) <a href="https://store.mainiauto.com" target="_blank">store.mainiauto.com</a></li>
-    <li>🤖 Built <b>Email Automation + Telegram Bot + Invoice Automation</b> using intelligent workflows.</li>
-    <li>🧠 Working on <b>AI LLM Integration, Voice-to-Text, Text-to-Speech</b> features in applications.</li>
-  </ul>
+<nav>
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            Rameshwar<span>.</span>
+        </a>
+
+        <button class="menu-btn" onclick="toggleMenu()">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#stack">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+<!-- =========================
+     HERO
+========================== -->
+
+<section class="hero" id="home">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+                &lt; AI ENGINEER / FULL-STACK DEVELOPER / DEVOPS /&gt;
+            </div>
+
+            <h1>
+                Hi, I'm
+                <span class="gradient-text">
+                    Rameshwar Vishwakarma
+                </span>
+            </h1>
+
+            <h2>
+                AI Engineer | Full-Stack Developer |
+                DevOps & Automation Engineer
+            </h2>
+
+            <p class="hero-description">
+                I build AI-powered applications, mobile apps,
+                scalable web platforms, automation systems,
+                and production-ready software solutions.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    View Projects
+                </a>
+
+                <a href="https://github.com/rvcjourney"
+                   target="_blank"
+                   class="btn btn-outline">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/rameshwar-vishwakarma/"
+                   target="_blank"
+                   class="btn btn-outline">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
-<section>
-  <h2>🧠 Tech Stack</h2>
 
-  <h4>📱 Mobile Development</h4>
-  <div class="badges">
-    <span class="badge">React Native CLI</span>
-    <span class="badge">Android Play Store Deployment</span>
-  </div>
+<!-- =========================
+     ABOUT
+========================== -->
 
-  <h4>🌐 Frontend</h4>
-  <div class="badges">
-    <span class="badge">HTML5</span>
-    <span class="badge">CSS3</span>
-    <span class="badge">JavaScript</span>
-    <span class="badge">Bootstrap</span>
-    <span class="badge">React.js</span>
-  </div>
+<section id="about">
 
-  <h4>⚙️ Backend</h4>
-  <div class="badges">
-    <span class="badge">Node.js</span>
-    <span class="badge">Java</span>
-    <span class="badge">Spring Boot</span>
-    <span class="badge">Magento 2</span>
-  </div>
+    <div class="container">
 
-  <h4>🗄️ Database</h4>
-  <div class="badges">
-    <span class="badge">PostgreSQL</span>
-    <span class="badge">MySQL</span>
-    <span class="badge">MongoDB</span>
-  </div>
+        <h2 class="section-title">
+            About Me
+        </h2>
 
-  <h4>🤖 AI & Automation</h4>
-  <div class="badges">
-    <span class="badge">LLM Integration</span>
-    <span class="badge">Voice-to-Text</span>
-    <span class="badge">Text-to-Speech</span>
-    <span class="badge">Chatbots</span>
-    <span class="badge">n8n Automation</span>
-  </div>
+        <p class="section-subtitle">
+            Building practical software by combining AI,
+            automation, full-stack development and cloud technologies.
+        </p>
 
-  <h4>🚀 Deployment & DevOps</h4>
-  <div class="badges">
-    <span class="badge">Docker</span>
-    <span class="badge">AWS</span>
-    <span class="badge">Hostinger</span>
-    <span class="badge">GoDaddy</span>
-    <span class="badge">Git</span>
-    <span class="badge">GitHub</span>
-    <span class="badge">Vercel</span>
-  </div>
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <p>
+                    I am an AI Engineer / Software Developer at
+                    MOTM Technologies with 1.5+ years of professional
+                    development experience.
+                </p>
+
+                <p>
+                    My work spans AI/LLM applications, agentic AI,
+                    RAG, MCP, automation, React Native, backend
+                    development, cloud infrastructure and DevOps.
+                </p>
+
+                <p>
+                    I enjoy taking a business requirement and converting
+                    it into a real-world application that can be
+                    developed, deployed, monitored and maintained
+                    in production.
+                </p>
+
+                <p>
+                    I have practical experience working with VPS,
+                    Docker, Linux, Cloudflare, DNS, reverse proxies,
+                    SSL/TLS, production deployments and monitoring.
+                </p>
+
+            </div>
+
+            <div>
+
+                <ul class="about-list">
+
+                    <li>🤖 AI / LLM / Agentic AI</li>
+                    <li>⚙️ Business Automation</li>
+                    <li>📱 React Native Applications</li>
+                    <li>🌐 Full-Stack Web Development</li>
+                    <li>☁️ Cloud & DevOps</li>
+                    <li>🚀 Production Deployment</li>
+                    <li>🔌 API & System Integration</li>
+                    <li>📊 Data & Workflow Automation</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<section>
-  <h2>📌 Featured Projects</h2>
-  <ul>
-    <li>
-      🛒 <b>E-Commerce Platform – Maini Group</b><br>
-      Magento 2, frontend UI, data & image integration<br>
-      Live: <a href="https://store.mainiauto.com/" target="_blank">store.mainiauto.com</a>
-    </li>
 
-    <li>
-      🎨 <b>Corporate Portfolio Website – Maini Group</b><br>
-      HTML, CSS, Bootstrap, JavaScript, React<br>
-      Live: <a href="https://mainiauto.com/" target="_blank">mainiauto.com</a>
-    </li>
+<!-- =========================
+     EXPERIENCE
+========================== -->
 
-    <li>
-      🤖 <b>Auto-Mail Telegram Automation</b><br>
-      Email automation + Telegram Bot + Invoice Automation<br>
-      GitHub: <a href="https://github.com/rvcjourney/AutoMailTelegram" target="_blank">Repository</a>
-    </li>
+<section id="experience">
 
-    <li>
-      🌐 <b>Personal Developer Portfolio</b><br>
-      <a href="https://rvcjourney.github.io/Portfolio/" target="_blank">View Portfolio</a>
-    </li>
-  </ul>
+    <div class="container">
+
+        <h2 class="section-title">
+            Professional Experience
+        </h2>
+
+        <p class="section-subtitle">
+            Professional experience across AI engineering,
+            software development, automation and production systems.
+        </p>
+
+
+        <div class="timeline">
+
+            <!-- MOTM -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-header">
+
+                    <div>
+
+                        <h3>
+                            🤖 MOTM Technologies
+                        </h3>
+
+                        <div class="timeline-role">
+                            AI Engineer / Software Developer
+                        </div>
+
+                        <div class="timeline-location">
+                            📍 Pune, India
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-date">
+                        2025 – Present
+                    </div>
+
+                </div>
+
+                <ul>
+
+                    <li>
+                        Built and maintained AI-powered applications,
+                        automation systems and production web applications.
+                    </li>
+
+                    <li>
+                        Developed backend services and REST APIs using
+                        Node.js, Express.js, PostgreSQL and TypeScript.
+                    </li>
+
+                    <li>
+                        Implemented LLM-based applications using
+                        prompt engineering, API/tool calling, RAG,
+                        MCP and agentic workflows.
+                    </li>
+
+                    <li>
+                        Designed business workflow automation using
+                        n8n, APIs, email systems, Telegram bots
+                        and AI services.
+                    </li>
+
+                    <li>
+                        Developed applications using React.js,
+                        Next.js and React Native.
+                    </li>
+
+                    <li>
+                        Managed production deployments using VPS,
+                        Docker, AWS, GCP and Linux.
+                    </li>
+
+                    <li>
+                        Configured Cloudflare, DNS, domains,
+                        reverse proxy, SSL/TLS and application routing.
+                    </li>
+
+                    <li>
+                        Used Sentry for production monitoring
+                        and troubleshooting.
+                    </li>
+
+                    <li>
+                        Worked with stakeholders to convert business
+                        requirements into scalable software solutions.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- MAINI -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-header">
+
+                    <div>
+
+                        <h3>
+                            💻 Maini Group of Companies
+                        </h3>
+
+                        <div class="timeline-role">
+                            Software Developer
+                        </div>
+
+                        <div class="timeline-location">
+                            📍 Pune, India
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-date">
+                        Mar 2025 – Oct 2025
+                    </div>
+
+                </div>
+
+                <ul>
+
+                    <li>
+                        Worked on a Magento 2 enterprise
+                        E-Commerce platform.
+                    </li>
+
+                    <li>
+                        Handled product data, images,
+                        frontend UI and website content.
+                    </li>
+
+                    <li>
+                        Developed frontend components using
+                        HTML, CSS, JavaScript and Bootstrap.
+                    </li>
+
+                    <li>
+                        Worked with product data from Admin Panel
+                        and Purchase Order workflows.
+                    </li>
+
+                    <li>
+                        Collaborated with senior developers
+                        and analysts in a live production environment.
+                    </li>
+
+                    <li>
+                        Developed and deployed the company's
+                        corporate portfolio website.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
-<section>
-  <h2>📫 Connect With Me</h2>
-  <a href="https://www.linkedin.com/in/rameshwar-vishwakarma/" target="_blank">LinkedIn</a> |
-  <a href="mailto:ramvish958@gmail.com">Email</a> |
-  <a href="https://github.com/rvcjourney" target="_blank">GitHub</a>
+
+<!-- =========================
+     TECH STACK
+========================== -->
+
+<section id="stack">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Tech Stack
+        </h2>
+
+        <p class="section-subtitle">
+            Technologies and tools I work with across AI,
+            application development, automation and infrastructure.
+        </p>
+
+
+        <div class="stack-grid">
+
+            <div class="stack-card">
+
+                <h3>🤖 AI & Generative AI</h3>
+
+                <div class="tags">
+
+                    <span class="tag">LLMs</span>
+                    <span class="tag">Agentic AI</span>
+                    <span class="tag">RAG</span>
+                    <span class="tag">MCP</span>
+                    <span class="tag">AI Agents</span>
+                    <span class="tag">Prompt Engineering</span>
+                    <span class="tag">Tool Calling</span>
+                    <span class="tag">Voice-to-Text</span>
+                    <span class="tag">Text-to-Speech</span>
+                    <span class="tag">AI Chatbots</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="stack-card">
+
+                <h3>📱 Mobile Development</h3>
+
+                <div class="tags">
+
+                    <span class="tag">React Native CLI</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Android</span>
+                    <span class="tag">REST APIs</span>
+                    <span class="tag">Play Store</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="stack-card">
+
+                <h3>🌐 Frontend</h3>
+
+                <div class="tags">
+
+                    <span class="tag">React.js</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">Vite</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="stack-card">
+
+                <h3>⚙️ Backend</h3>
+
+                <div class="tags">
+
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express.js</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">Spring Boot</span>
+                    <span class="tag">REST APIs</span>
+                    <span class="tag">API Integration</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="stack-card">
+
+                <h3>🗄️ Databases</h3>
+
+                <div class="tags">
+
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">Supabase</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="stack-card">
+
+                <h3>🔄 Automation</h3>
+
+                <div class="tags">
+
+                    <span class="tag">n8n</span>
+                    <span class="tag">Email Automation</span>
+                    <span class="tag">Telegram Bots</span>
+                    <span class="tag">Invoice Automation</span>
+                    <span class="tag">API Automation</span>
+                    <span class="tag">Business Workflows</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="stack-card">
+
+                <h3>☁️ Cloud & DevOps</h3>
+
+                <div class="tags">
+
+                    <span class="tag">Docker</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">GCP</span>
+                    <span class="tag">VPS</span>
+                    <span class="tag">Linux</span>
+                    <span class="tag">Cloudflare</span>
+                    <span class="tag">CI/CD</span>
+                    <span class="tag">DNS</span>
+                    <span class="tag">SSL/TLS</span>
+                    <span class="tag">Reverse Proxy</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="stack-card">
+
+                <h3>📊 Tools & Monitoring</h3>
+
+                <div class="tags">
+
+                    <span class="tag">Sentry</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">GitHub</span>
+                    <span class="tag">VS Code</span>
+                    <span class="tag">Vercel</span>
+                    <span class="tag">Render</span>
+                    <span class="tag">Supabase</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
-<footer style="text-align:center; color: var(--accent); padding: 1rem 0 2rem;">
-  ✨ “Code. Automate. Build. Deploy. Repeat.” ✨
+
+<!-- =========================
+     PROJECTS
+========================== -->
+
+<section id="projects">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Featured Projects
+        </h2>
+
+        <p class="section-subtitle">
+            Selected production systems, applications and
+            automation projects.
+        </p>
+
+
+        <div class="projects-grid">
+
+
+            <!-- QUICKICP -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🤖
+                </div>
+
+                <h3>
+                    QuickICP — AI & Lead Intelligence
+                </h3>
+
+                <p>
+                    AI-powered platform focused on ICP identification,
+                    business data processing, lead intelligence,
+                    automation and AI-driven analysis.
+                </p>
+
+                <ul>
+
+                    <li>AI / LLM workflows</li>
+                    <li>Business data processing</li>
+                    <li>Lead intelligence</li>
+                    <li>Automation</li>
+                    <li>Full-stack development</li>
+                    <li>Production deployment</li>
+
+                </ul>
+
+                <a class="project-link"
+                   href="http://quickicp.com/"
+                   target="_blank">
+
+                    → Visit QuickICP
+
+                </a>
+
+            </div>
+
+
+            <!-- CONNECTIQO -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    ConnectIQO
+                </h3>
+
+                <p>
+                    Production business web platform involving
+                    full-stack development, deployment,
+                    DNS management and Cloudflare configuration.
+                </p>
+
+                <ul>
+
+                    <li>Frontend development</li>
+                    <li>Backend/API integration</li>
+                    <li>Cloudflare</li>
+                    <li>DNS</li>
+                    <li>SSL/TLS</li>
+                    <li>Production maintenance</li>
+
+                </ul>
+
+                <a class="project-link"
+                   href="https://connectiqo.com/"
+                   target="_blank">
+
+                    → Visit ConnectIQO
+
+                </a>
+
+            </div>
+
+
+            <!-- ETHEREAL -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🎨
+                </div>
+
+                <h3>
+                    Ethereal Spaces
+                </h3>
+
+                <p>
+                    Production website developed and deployed
+                    for a design-focused business.
+                </p>
+
+                <ul>
+
+                    <li>Web development</li>
+                    <li>UI implementation</li>
+                    <li>Hosting</li>
+                    <li>Domain configuration</li>
+                    <li>Deployment</li>
+                    <li>Production maintenance</li>
+
+                </ul>
+
+                <a class="project-link"
+                   href="http://etherealspaces.design/"
+                   target="_blank">
+
+                    → Visit Website
+
+                </a>
+
+            </div>
+
+
+            <!-- MAINI -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🛒
+                </div>
+
+                <h3>
+                    Maini Group E-Commerce
+                </h3>
+
+                <p>
+                    Enterprise Magento 2 e-commerce platform
+                    for an automotive/spare-parts business.
+                </p>
+
+                <ul>
+
+                    <li>Magento 2</li>
+                    <li>Product data management</li>
+                    <li>Product image integration</li>
+                    <li>Frontend UI</li>
+                    <li>Admin Panel operations</li>
+                    <li>Production maintenance</li>
+
+                </ul>
+
+                <a class="project-link"
+                   href="https://store.mainiauto.com"
+                   target="_blank">
+
+                    → Visit Store
+
+                </a>
+
+            </div>
+
+
+            <!-- MAINI CORPORATE -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🏢
+                </div>
+
+                <h3>
+                    Maini Group Corporate Website
+                </h3>
+
+                <p>
+                    Corporate portfolio website developed
+                    and deployed for Maini Group.
+                </p>
+
+                <ul>
+
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Vite</li>
+
+                </ul>
+
+                <a class="project-link"
+                   href="https://mainiauto.com"
+                   target="_blank">
+
+                    → Visit Website
+
+                </a>
+
+            </div>
+
+
+            <!-- AUTOMAIL -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    📧
+                </div>
+
+                <h3>
+                    Auto-Mail Telegram Automation
+                </h3>
+
+                <p>
+                    Automation system connecting email processing
+                    with Telegram notifications and business workflows.
+                </p>
+
+                <ul>
+
+                    <li>Email Automation</li>
+                    <li>Telegram Bot Integration</li>
+                    <li>Invoice Automation</li>
+                    <li>Workflow Automation</li>
+                    <li>API Integration</li>
+
+                </ul>
+
+                <a class="project-link"
+                   href="https://github.com/rvcjourney/AutoMailTelegram"
+                   target="_blank">
+
+                    → View on GitHub
+
+                </a>
+
+            </div>
+
+
+            <!-- AI ICP -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🧠
+                </div>
+
+                <h3>
+                    AI-Powered ICP & Lead Intelligence
+                </h3>
+
+                <p>
+                    AI-based system for collecting, cleaning,
+                    analyzing and qualifying business data.
+                </p>
+
+                <ul>
+
+                    <li>LLMs</li>
+                    <li>AI Agents</li>
+                    <li>Prompt Engineering</li>
+                    <li>Data Processing</li>
+                    <li>Lead Qualification</li>
+                    <li>Automation</li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- SCRAPER -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🕷️
+                </div>
+
+                <h3>
+                    Web Scraping & Data Automation
+                </h3>
+
+                <p>
+                    Automated pipelines designed to extract,
+                    process, structure and analyze information
+                    from multiple sources.
+                </p>
+
+                <ul>
+
+                    <li>Web Scraping</li>
+                    <li>Data Processing</li>
+                    <li>Automation</li>
+                    <li>Structured Data</li>
+                    <li>Business Intelligence</li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- LEARNING -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    📱
+                </div>
+
+                <h3>
+                    Online Learning Platform
+                </h3>
+
+                <p>
+                    Mobile learning platform where teachers
+                    conduct live lectures and students join
+                    sessions from their devices.
+                </p>
+
+                <ul>
+
+                    <li>React Native</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Agora</li>
+                    <li>Razorpay</li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- CAR RENTAL -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🚗
+                </div>
+
+                <h3>
+                    Car Rental System
+                </h3>
+
+                <p>
+                    Full-stack car rental application with
+                    REST APIs, database integration and
+                    server deployment.
+                </p>
+
+                <ul>
+
+                    <li>Full-Stack Development</li>
+                    <li>REST APIs</li>
+                    <li>Database Integration</li>
+                    <li>Server Deployment</li>
+                    <li>Application Hosting</li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- PORTFOLIO -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    Personal Developer Portfolio
+                </h3>
+
+                <p>
+                    Personal developer portfolio showcasing
+                    projects, skills, experience and development work.
+                </p>
+
+                <a class="project-link"
+                   href="https://rvcjourney.github.io/Portfolio/"
+                   target="_blank">
+
+                    → Visit Portfolio
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     WORKFLOW
+========================== -->
+
+<section class="workflow">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            What I Work With
+        </h2>
+
+        <p class="section-subtitle">
+            My development workflow connects AI,
+            application development, data, automation
+            and production infrastructure.
+        </p>
+
+        <div class="workflow-box">
+
+<pre>
+AI / GenAI
+    ↓
+LLMs • RAG • MCP • AI Agents • Tool Calling
+    ↓
+Application Development
+    ↓
+React • Next.js • React Native • Node.js • TypeScript
+    ↓
+Data & APIs
+    ↓
+PostgreSQL • MongoDB • MySQL • Supabase • REST APIs
+    ↓
+Automation
+    ↓
+n8n • Email Automation • Telegram • Business Workflows
+    ↓
+DevOps & Cloud
+    ↓
+Docker • VPS • AWS • GCP • Linux • Cloudflare
+    ↓
+Production
+    ↓
+Deployment • DNS • SSL/TLS • Reverse Proxy • Sentry
+</pre>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EDUCATION
+========================== -->
+
+<section id="education">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Education
+        </h2>
+
+        <div class="education-card">
+
+            <h3>
+                Bachelor of Computer Engineering
+            </h3>
+
+            <p>
+                KJ College of Engineering and Management Research
+            </p>
+
+            <p>
+                Pune, Maharashtra
+            </p>
+
+            <p>
+                🎓 2025
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     STRENGTHS
+========================== -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Professional Strengths
+        </h2>
+
+        <p class="section-subtitle">
+            Areas where I apply my technical experience
+            to solve practical business problems.
+        </p>
+
+
+        <div class="strength-grid">
+
+            <div class="strength">🤖 AI & Generative AI</div>
+
+            <div class="strength">⚙️ Automation Engineering</div>
+
+            <div class="strength">🌐 Full-Stack Development</div>
+
+            <div class="strength">📱 Mobile Development</div>
+
+            <div class="strength">☁️ DevOps & Cloud</div>
+
+            <div class="strength">🔌 API Integration</div>
+
+            <div class="strength">🧩 System Integration</div>
+
+            <div class="strength">🚀 Production Deployment</div>
+
+            <div class="strength">🐛 Production Troubleshooting</div>
+
+            <div class="strength">📊 Data Automation</div>
+
+            <div class="strength">🔄 Workflow Automation</div>
+
+            <div class="strength">💼 Business-Oriented Development</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================== -->
+
+<section id="contact" class="contact">
+
+    <div class="container">
+
+        <h2>
+            Let's Build Something
+            <span class="gradient-text">
+                Useful.
+            </span>
+        </h2>
+
+        <p>
+            Interested in AI applications, automation,
+            full-stack development, mobile applications
+            or production-ready software solutions?
+            Let's connect.
+        </p>
+
+        <div class="contact-links">
+
+            <a
+                href="mailto:ramvish958@gmail.com"
+                class="btn btn-primary">
+
+                📧 Email Me
+
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/rameshwar-vishwakarma/"
+                target="_blank"
+                class="btn btn-outline">
+
+                LinkedIn
+
+            </a>
+
+            <a
+                href="https://github.com/rvcjourney"
+                target="_blank"
+                class="btn btn-outline">
+
+                GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer>
+
+    <div class="container">
+
+        <p>
+            © <span id="year"></span>
+            Rameshwar Vishwakarma.
+            All rights reserved.
+        </p>
+
+        <p>
+            Code. Automate. Build. Deploy. Transform.
+        </p>
+
+    </div>
+
 </footer>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script>
+
+    function toggleMenu() {
+
+        const navLinks =
+            document.getElementById("navLinks");
+
+        navLinks.classList.toggle("active");
+
+    }
+
+
+    // Close mobile menu after clicking a link
+
+    document.querySelectorAll(".nav-links a")
+        .forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                document
+                    .getElementById("navLinks")
+                    .classList.remove("active");
+
+            });
+
+        });
+
+
+    // Current year
+
+    document.getElementById("year")
+        .textContent = new Date().getFullYear();
+
+</script>
 
 </body>
 </html>
-
